@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú Chapín</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f8f9fa, #e3f2fd);
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            background: white;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 1100px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .galeria img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        /* Más pequeña la shakalakon */
+        .galeria img[alt="Shakalakon"] {
+            width: 85px;
+            height: 85px;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Menú Chapín De Ciudad</h1>
+</header>
+
+<!-- DESAYUNO -->
+<section>
+    <h2>Desayuno</h2>
+    <div class="galeria">
+        <img src="./trotrix.jpeg">
+        <img src="./trotrix de mexico.jpeg">
+        <img src="./tortrix elote.jpeg">
+        <img src="./tortrix de todote.jpeg">
+        <img src="./trotrix chileros.jpeg">
+        <img src="./tortrix de guacamalos.jpeg">
+        <img src="./chapinachudo.jpeg">
+        <img src="./CHiltepa.jpeg">
+        <a href="https://www.latorre.com.gt" target="_blank">Ofertas de tortrix</a>
+    </div>
+</section>
+
+<!-- ALMUERZO -->
+<section>
+    <h2>Almuerzo</h2>
+    <div class="galeria">
+        <img src="./pixa.jpeg">
+        <img src="./pepsi.jpeg">
+        <img src="./mixtas.jpeg">
+        <img src="./pera jugo del monte.jpeg">
+    </div>
+</section>
+
+<!-- CENA -->
+<section>
+    <h2>Cena</h2>
+    <div class="galeria">
+        <img src="./tacos d ebirria.jpeg">
+        <img src="./shakalakon.jpg" alt="Shakalakon">
+        <img src="./sanwich.jpeg">
+    </div>
+</section>
+
+<footer>
+    © 2026 Menú Chapín
+</footer>
+
+</body>
+</html>
